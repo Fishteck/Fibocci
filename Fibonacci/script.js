@@ -1,3 +1,5 @@
+// Способ решения с рекурсией
+
 const fibonachi = num => {
     if (num < 2) {
         return num;
@@ -8,6 +10,8 @@ const fibonachi = num => {
 };
 
 console.log(fibonachi(7));
+
+// Способ решения циклом
 
 const fibonachi = num => {
     const result = [0, 1];
@@ -22,6 +26,8 @@ const fibonachi = num => {
 };
 
 console.log(fibonachi(7));
+
+// Нестандартный способ
 
 function fib(n) {
   let a = 1,
